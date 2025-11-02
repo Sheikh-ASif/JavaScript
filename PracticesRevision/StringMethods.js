@@ -65,7 +65,7 @@ console.log(text6.split(", "));
 
 // Count the total number of characters (excluding spaces) in "JavaScript is awesome".
 let text7 = "JavaScript is Awesome";
-console.log(text7.length);
+console.log(text7.replaceAll(" ", "").length);
 
 //Convert the first letter of "hello" to uppercase using string methods.
 let text8 = 'helllo';
