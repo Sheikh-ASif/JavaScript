@@ -59,3 +59,24 @@ if(str1.length <= 4) {
 let str2 = "Hey Asif";
 let ShortLong = str2.length <= 4 ? "short string" : "long string";
 console.log(ShortLong);
+
+
+// Write a nested ternary expression to check if a number is positive, negative, or zero.
+let number2 = -2;
+let check = number2 === 0 ? "zero" : number2 > 0 ? "positive" : "negative";
+console.log(check);
+
+
+// Write a ternary expression to check if a user is logged in or not and display an appropriate message.
+
+// if else method
+let user = "LoggedIn";
+if (user === "LoggedIn"){
+    console.log("Welcome back!");
+} else {
+    console.log("Please log in.");
+}
+
+// ternary method
+let LoggedIn = false;
+console.log(LoggedIn ? "Welcome back!" : "Please log in.");
